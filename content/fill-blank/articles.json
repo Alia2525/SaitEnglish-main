@@ -1,0 +1,51 @@
+{
+  "id": "articles",
+  "title": "Артиклі a / an / the",
+  "description": "Обери правильний артикль у реченні",
+  "level": "A2",
+  "type": "fill_blank",
+  "questions": [
+    {
+      "sentence": "I saw ___ elephant at the zoo.",
+      "blank": "___",
+      "options": ["a", "an", "the", "—"],
+      "correct": 1,
+      "explanation": "Перед голосною (elephant) — an"
+    },
+    {
+      "sentence": "___ sun is very bright today.",
+      "blank": "___",
+      "options": ["A", "An", "The", "—"],
+      "correct": 2,
+      "explanation": "Унікальні об'єкти: the sun"
+    },
+    {
+      "sentence": "She is ___ doctor.",
+      "blank": "___",
+      "options": ["a", "an", "the", "—"],
+      "correct": 0,
+      "explanation": "Професія в однині: a doctor"
+    },
+    {
+      "sentence": "We need ___ hour to finish.",
+      "blank": "___",
+      "options": ["a", "an", "the", "—"],
+      "correct": 1,
+      "explanation": "Hour вимовляється з приголосного звуку [aʊə], але пишеться з h — traditionally 'an hour'"
+    },
+    {
+      "sentence": "I love ___ music.",
+      "blank": "___",
+      "options": ["a", "an", "the", "—"],
+      "correct": 3,
+      "explanation": "Music — незлічуване, без артикля"
+    },
+    {
+      "sentence": "Can you pass me ___ salt?",
+      "blank": "___",
+      "options": ["a", "an", "the", "—"],
+      "correct": 2,
+      "explanation": "Конкретна сіль на столі: the salt"
+    }
+  ]
+}

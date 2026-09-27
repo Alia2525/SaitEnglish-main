@@ -1,0 +1,45 @@
+{
+  "id": "past-simple",
+  "title": "Past Simple",
+  "description": "Дії в минулому: regular та irregular verbs",
+  "level": "A2",
+  "type": "multiple_choice",
+  "questions": [
+    {
+      "prompt": "Yesterday I ___ to the cinema.",
+      "options": ["go", "went", "gone", "going"],
+      "correct": 1,
+      "explanation": "go → went (irregular)"
+    },
+    {
+      "prompt": "She ___ her homework last night.",
+      "options": ["finish", "finishes", "finished", "finishing"],
+      "correct": 2,
+      "explanation": "Regular verb: finish + ed"
+    },
+    {
+      "prompt": "We ___ see them at the party.",
+      "options": ["don't", "didn't", "doesn't", "wasn't"],
+      "correct": 1,
+      "explanation": "Past negative: didn't + base verb"
+    },
+    {
+      "prompt": "___ they arrive on time?",
+      "options": ["Do", "Did", "Were", "Have"],
+      "correct": 1,
+      "explanation": "Past question: Did they arrive?"
+    },
+    {
+      "prompt": "He ___ breakfast at 8 o'clock this morning.",
+      "options": ["eat", "eats", "ate", "eaten"],
+      "correct": 2,
+      "explanation": "eat → ate"
+    },
+    {
+      "prompt": "It ___ yesterday.",
+      "options": ["rain", "rains", "rained", "raining"],
+      "correct": 2,
+      "explanation": "Regular: rain → rained"
+    }
+  ]
+}

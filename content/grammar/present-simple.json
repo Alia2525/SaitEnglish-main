@@ -1,0 +1,57 @@
+{
+  "id": "present-simple",
+  "title": "Present Simple",
+  "description": "Звичні дії та факти: go / goes, do / does",
+  "level": "A2",
+  "type": "multiple_choice",
+  "questions": [
+    {
+      "prompt": "She ___ to work by bus every day.",
+      "options": ["go", "goes", "going", "went"],
+      "correct": 1,
+      "explanation": "3rd person singular: she goes"
+    },
+    {
+      "prompt": "They ___ coffee in the morning.",
+      "options": ["drinks", "drink", "drinking", "drank"],
+      "correct": 1,
+      "explanation": "They → drink (без -s)"
+    },
+    {
+      "prompt": "My brother ___ football on Saturdays.",
+      "options": ["play", "plays", "playing", "played"],
+      "correct": 1,
+      "explanation": "My brother = he → plays"
+    },
+    {
+      "prompt": "___ you speak English?",
+      "options": ["Do", "Does", "Is", "Are"],
+      "correct": 0,
+      "explanation": "Питання в Present Simple з you: Do you...?"
+    },
+    {
+      "prompt": "He ___ not like spicy food.",
+      "options": ["do", "does", "is", "are"],
+      "correct": 1,
+      "explanation": "He does not (doesn't) like..."
+    },
+    {
+      "prompt": "The shop ___ at 9 a.m.",
+      "options": ["open", "opens", "opening", "opened"],
+      "correct": 1,
+      "explanation": "The shop = it → opens"
+    },
+    {
+      "prompt": "We ___ TV in the evening.",
+      "options": ["watches", "watch", "watching", "watched"],
+      "correct": 1,
+      "explanation": "We → watch"
+    },
+    {
+      "prompt": "Where ___ she live?",
+      "options": ["do", "does", "is", "are"],
+      "correct": 1,
+      "explanation": "She → Does she live?"
+    }
+  ]
+}

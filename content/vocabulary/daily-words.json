@@ -1,0 +1,28 @@
+{
+  "id": "daily-words",
+  "title": "Повсякденні слова",
+  "description": "20 базових слів для щоденного спілкування",
+  "level": "A1",
+  "cards": [
+    { "en": "hello", "uk": "привіт", "example": "Hello! How are you?" },
+    { "en": "goodbye", "uk": "до побачення", "example": "Goodbye, see you tomorrow!" },
+    { "en": "please", "uk": "будь ласка", "example": "Can I have water, please?" },
+    { "en": "thank you", "uk": "дякую", "example": "Thank you for your help." },
+    { "en": "yes", "uk": "так", "example": "Yes, I agree." },
+    { "en": "no", "uk": "ні", "example": "No, thank you." },
+    { "en": "water", "uk": "вода", "example": "I need a glass of water." },
+    { "en": "food", "uk": "їжа", "example": "The food is delicious." },
+    { "en": "house", "uk": "будинок", "example": "They live in a big house." },
+    { "en": "friend", "uk": "друг", "example": "She is my best friend." },
+    { "en": "work", "uk": "робота", "example": "I go to work at eight." },
+    { "en": "time", "uk": "час", "example": "What time is it?" },
+    { "en": "day", "uk": "день", "example": "Have a nice day!" },
+    { "en": "night", "uk": "ніч", "example": "Good night!" },
+    { "en": "book", "uk": "книга", "example": "I'm reading a good book." },
+    { "en": "phone", "uk": "телефон", "example": "My phone is on the table." },
+    { "en": "city", "uk": "місто", "example": "Kyiv is a beautiful city." },
+    { "en": "money", "uk": "гроші", "example": "I don't have enough money." },
+    { "en": "happy", "uk": "щасливий", "example": "She looks happy today." },
+    { "en": "tired", "uk": "втомлений", "example": "I'm tired after work." }
+  ]
+}

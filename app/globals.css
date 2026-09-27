@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0b1120;
+  --color-surface: #111a2e;
+  --color-surface-hover: #18243d;
+  --color-border: #263653;
+  --color-text: #edf4ff;
+  --color-muted: #94a7c6;
+  --color-accent: #5b8cff;
+  --color-accent-hover: #4777e8;
+  --color-success: #31c48d;
+  --color-error: #f06464;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(91, 140, 255, 0.16), transparent 32rem),
+    radial-gradient(circle at 85% 15%, rgba(124, 92, 255, 0.10), transparent 28rem),
+    var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(91, 140, 255, 0.35);
+}
+
+.gradient-bg {
+  background: transparent;
+}
+
+.glass {
+  background: rgba(17, 26, 46, 0.72);
+  backdrop-filter: blur(14px);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(91, 140, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(91, 140, 255, 0.055) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 25%, rgba(255,255,255,0.045), transparent 55%);
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+  pointer-events: none;
+}
+
+.card-shine:hover::before {
+  transform: translateX(120%);
+}
